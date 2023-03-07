@@ -15,6 +15,28 @@ This project is an audio music box, that can be controlled with RFID cards. This
 
 ### The LEDs
 
+### What to buy
+
+This project uses an RGB LED. This combination of colors is the most intuive:
+
+* Blue signalises the bluetooth status.
+* Green signalises a normal readiness status.
+* red signalises an abnormal status.
+
+The typical size of LEDs is 5mm.
+
+The LED should be matt/diffuse. Clear LEDs are not comfortable to view and do not mix the colors well. Typically an RGB LED costs less then 1€/1$.
+
+### How to connect
+
+The the longest contact of the LED is the anode. It has to be connected to ground.
+
+The other three contacts are for the colors. The typical maximum current for an LED is 20 mA. Each LED color needs another voltage in order to achieve the same current. In principle, therefore each LED requires an individual calculated or tested resitor. The GPIO pins provide 3.3V. In practice, 20mA is far too much (too bright) for status LEDs. The Raspberry PI also can only drive 50mA in total without been damaged. In practice a LED is still bright enough at 3mA. An 330 Ohm resistor can typically be used for all colors. With this resistor all colors are still too bright for most usages. They must be dimmed down with software. If it is prefered to go without dimming, the resitor must be chosen bigger than 330 Ohm.
+
+It is not possible to use only one shared resistor on the anode pin. The interested reader should do experiments calculations in order to convince himself why this is not possible.
+
+This project connects red to GPIO 19 at pin 35, green to GPIO 13 at pin 33, blue at GPIO 32. This connection is important as will be seen later.
+
 ### The RFID Reader
 
 ## The Operating System
