@@ -27,6 +27,8 @@ The typical size of LEDs is 5mm.
 
 The LED should be matt/diffuse. Clear LEDs are not comfortable to view and do not mix the colors well. Typically an RGB LED costs less then 1€/1$.
 
+An LED should have a housing in order to fix it on wood or on the case. The Kingbright RTC-51 is a typical product, that costs a few cents.
+
 ### How to connect
 
 The the longest contact of the LED is the anode. It has to be connected to ground.
