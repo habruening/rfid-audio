@@ -4,12 +4,24 @@
 Completed and running. This github repository is in development. Please come back later!
 
 ## Introduction
-This project is an audio music box, that can be controlled with RFID cards. This project does not have anything new. As there is already plenty of information available in the Internet, the purpose of this repository is to collect the relevant information and to give a complete guide.
+This project is an audio music box, that can be controlled with RFID cards. This repository does not provide anything new, that is not already availalbe on many other web pages. As there is already plenty of information available in the Internet, the purpose of this repository is to collect the relevant information and to give the reader a complete guidance.
 
 ### What is special in this project?
-* We use the Raspberry Pi Zero W only.
-* We use a three color status LED.
-* We use bluetooth audio
+* This project uses the Raspberry Pi Zero W only.
+* This project uses a three color status LED.
+* This project uses bluetooth audio
+
+## The hardware
+
+### The LEDs
+
+### The RFID Reader
+
+## The Operating System
+
+## The Software
+
+## The Program
 
 ## Critical Observations
 ### Performance
