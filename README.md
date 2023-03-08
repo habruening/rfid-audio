@@ -10,6 +10,7 @@ This project is an audio music box, that can be controlled with RFID cards. This
 * This project uses the Raspberry Pi Zero W only.
 * This project uses a three color status LED.
 * This project uses bluetooth audio
+* This project disconnects from bluetooth when not playing
 
 ## The hardware
 
