@@ -48,7 +48,7 @@ This project uses a RC522 wifi reader for about 6€.
 
 As the GPIO pins are general purpose, there are many options how to connect the RF522 card.
 
-This project uses the following configuration from [https://tutorials-raspberrypi.de/raspberry-pi-rfid-rc522-tueroeffner-nfc/](Tutorials for Raspberry Pi).
+This project uses the following configuration from (Tutorials for Raspberry Pi)[https://tutorials-raspberrypi.de/raspberry-pi-rfid-rc522-tueroeffner-nfc].
 
 
 SDA <->	Pin 24 / GPIO8 (CE0)
