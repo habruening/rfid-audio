@@ -30,7 +30,7 @@ The LED should be matt/diffuse. Clear LEDs are not comfortable to view and do no
 
 An LED should have a housing in order to fix it on wood or on the case. The Kingbright RTC-51 is a typical product, that costs a few cents.
 
-### How to connect
+#### How to connect?
 
 The the longest contact of the LED is the anode. It has to be connected to ground.
 
@@ -42,7 +42,27 @@ This project connects red to GPIO 19 at pin 35, green to GPIO 13 at pin 33, blue
 
 ### The RFID Reader
 
+This project uses a RC522 wifi reader for about 6€.
+
+#### How to connect?
+
+As the GPIO pins are general purpose, there are many options how to connect the RF522 card.
+
+This project uses the following configuration (from [https://tutorials-raspberrypi.de/raspberry-pi-rfid-rc522-tueroeffner-nfc/](Tutorials for Raspberry Pi)).
+
+
+SDA <->	Pin 24 / GPIO8 (CE0)
+SCK	<-> Pin 23 / GPIO11 (SCKL)
+MOSI <-> Pin 19 / GPIO10 (MOSI)
+MISO <->	Pin 21 / GPIO9 (MISO)
+IRQ	<-> not connected
+GND	<-> Pin6 (GND)
+RST	<-> Pin22 / GPIO25
+3.3V <-> Pin 1 (3V3)
+
 ## The Operating System
+
+Use the Raspberry Pi Imager and load the Raspberry Pi OS Lite (32 bit). See the [screenshots](image-loader.md).
 
 ## The Software
 
